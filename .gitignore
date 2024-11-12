@@ -1,2 +1,3 @@
 .vscode/
-tenzir.db/
+scripts/tenzir.db/
+internal/logs/send/sender.go
