@@ -1,5 +1,7 @@
 package parse
 
+// Walk around logs dir and parse logs in structs.
+
 import (
 	"bufio"
 	"os"
@@ -7,13 +9,12 @@ import (
 	"strings"
 )
 
-// Walk around logs dir and parse logs in structs.
-
 type BaseLog struct {
 	Timestamp string `json:"timestamp"`
 	Content   string `json:"content"`
 }
 
+// Describe dpkg log structure.
 type DpkgLog struct {
 	BaseLog
 }

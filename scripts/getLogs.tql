@@ -1,4 +1,5 @@
 export 
-| to /home/kud/Code/go/src/LogPipeliner/storage/test.log
+| to /home/kud/Code/go/src/LogPipeliner/storage/test.json
+
 
 //| where log.message == "dummy" 

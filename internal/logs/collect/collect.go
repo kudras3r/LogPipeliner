@@ -1,6 +1,6 @@
 package collect
 
-// Every delay secs run pipeline that export data from tenzir storage
+// Every delay secs run pipeline that export data from tenzir local storage
 // and save it in out local storage.
 
 import (

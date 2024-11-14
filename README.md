@@ -10,6 +10,7 @@
 - 10/11/24 | Node and pipeline start.
 - 12/11/24 | Create three pipelines : logPrinter and apiSaver1/2. Restructure project.
 - 13/11/24 | Adding parser for dpkg logs.
+- 14/11/24 | Adding logs converter / sender.
 
 
 ## Authors
